@@ -20,7 +20,7 @@ const User = () => {
   return (
     <section className={styles.container}>
       <Typography className={styles.message} variant="h1">
-        <span className={styles.span}>Hola Bienvenido</span> {account.name}
+        <span className={styles.span}>Hola Mundo Bienvenido</span> {account.name}
       </Typography>
       {show && account?.idTokenClaims && <IdTokenClaims idTokenClaims={account.idTokenClaims} />}
       <Button
